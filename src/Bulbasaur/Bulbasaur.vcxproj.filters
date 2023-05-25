@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\Geometry">
+      <UniqueIdentifier>{51037ba4-aa84-4e9e-a387-101412d54876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Geometry\2D">
+      <UniqueIdentifier>{bbaad6c6-bb90-4bfe-9a8a-47f66debf144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Geometry\3D">
+      <UniqueIdentifier>{ea67daa7-bc29-4bcf-a9e8-4174bdc5c02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Geometry">
+      <UniqueIdentifier>{80bdcc04-9c5e-45d6-a3f6-b9ed43ea2434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Geometry\2D">
+      <UniqueIdentifier>{ff61325a-7afc-4a54-acaa-e2e063dff8db}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -21,6 +36,9 @@
     <ClInclude Include="pch.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="Vector2d.h">
+      <Filter>ヘッダー ファイル\Geometry\2D</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -28,6 +46,9 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2d.cpp">
+      <Filter>ソース ファイル\Geometry\2D</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
